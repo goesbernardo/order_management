@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: pedido-consumer-group
+    topic:
+      pedido-recebido: "pedido-recebido"
+      pedido-processado: "pedido-processado"
